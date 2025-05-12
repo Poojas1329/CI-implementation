@@ -1,0 +1,6 @@
+@echo off
+echo Compiling Java program...
+javac HelloWorld.java
+if %errorlevel% neq 0 exit /b %errorlevel%
+echo Running program...
+java HelloWorld
